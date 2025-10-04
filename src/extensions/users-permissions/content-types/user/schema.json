@@ -76,6 +76,12 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "basket": {
+      "type": "json"
+    },
+    "addresses": {
+      "type": "json"
     }
   }
 }

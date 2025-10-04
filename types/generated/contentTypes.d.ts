@@ -807,6 +807,8 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
     surname: Attribute.String & Attribute.Required;
     phone: Attribute.String & Attribute.Required;
     name: Attribute.String & Attribute.Required;
+    basket: Attribute.JSON;
+    addresses: Attribute.JSON;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
