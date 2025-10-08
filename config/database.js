@@ -6,7 +6,7 @@ module.exports = ({ env }) => {
     connection: {
       client,
       connection: {
-        connectionString: env('postgresql://highway_burger_db_user:4MrCDwN4SoHnOkMWMtpHq2PRhV090j6Q@dpg-d3j8bgpgv73c73bl9620-a/highway_burger_db'), // Render'dan aldığın Internal Database URL
+        connectionString: env('DATABASE_URL'), // Render'dan aldığın Internal Database URL
         ssl: {
           rejectUnauthorized: false, // Render PostgreSQL için gerekli
         },
